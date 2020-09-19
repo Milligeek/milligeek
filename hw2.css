@@ -1,0 +1,116 @@
+
+
+.body{
+    background-color: black;
+}
+
+
+
+@media(min-width: 468px){
+     .container-1{
+         display: flex;
+        
+      }
+      .container-2{
+          display: flex;
+         
+         justify-content: space-between;
+      }
+    }
+
+
+.container-1 div, .container-2 div{
+    border: 15px #ccc solid;
+    padding: 9px;
+}
+
+.box-1{
+    flex:2;
+    order: 2;
+}
+
+.box-2{
+    flex:1;
+    order: 1;
+}
+
+.box-3{
+    flex:1;
+    order: 3;
+}
+
+.container-2-box{
+    flex-basis: 27%;
+}
+
+.box-1 {
+    position: relative;
+    width: auto;
+}
+
+.horizontal-menu ul {
+    margin: 10;
+    padding: 15;
+}
+.horizontal-menu li {
+    display: inline;
+}
+.horizontal-menu a {
+    display: block;
+    padding: 8px;
+    background-color: #0018c3;
+}
+.horizontal-menu .active {
+	background-color: slategray;
+    color: crimson;
+}
+.horizontal-menu ul {
+    margin: 10;
+    padding: 15;
+    overflow: hidden;
+    background-color: slategray;
+}
+.horizontal-menu li {
+    float: left;
+}
+.horizontal-menu li a {
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal-menu li a:hover {
+    background-color: #111;
+}
+.horizontal-menu li {
+    border-right: 1px solid #bbb;
+}
+
+body{
+    background-color: slategray;
+}
+
+background-color{
+    background-color: black;
+}
+
+footer{
+    background-color: slategrey;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border: blanchedalmond 17%;
+}
+
+p{
+    background-color: snow;
+    box-shadow: black;
+}
+
+h4{
+    background-color: crimson;
+    border: black 10px;
+}
